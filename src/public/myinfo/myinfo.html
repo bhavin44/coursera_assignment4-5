@@ -1,0 +1,16 @@
+﻿<div class="container">
+    <h2 id="myInfo-title" class="text-center">My Info</h2>
+    First Name: {{ $myInfoCtrl.user.firstName }}
+    <br />
+    Last Name: {{ $myInfoCtrl.user.lastname }}
+    <br />
+    Email: {{ $myInfoCtrl.user.email }}
+    <br />
+    Phone: {{ $myInfoCtrl.user.phone }}
+    <br />
+    <h3>
+        Favorite Dish:
+    </h3>
+    <hr>
+    <menu-item menu-item="$myInfoCtrl.user.favDish"></menu-item>
+</div>
